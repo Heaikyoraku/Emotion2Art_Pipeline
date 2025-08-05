@@ -51,6 +51,8 @@ Gradio
 # 📁 Project Structure
 emotion-model-byHasoosy/ → contains the fine-tuned emotion classifier.
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface)](https://huggingface.co/Heaikyoraku/emotion-model-byHasoosy)
+
+
 Emotion2Art_Pipeline_by_Hasoosy.ipynb → full integration pipeline with user interface.
 
 output.png → sample generated art.
