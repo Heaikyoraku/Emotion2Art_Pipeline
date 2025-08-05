@@ -61,6 +61,8 @@ output.png → sample generated art.
 
 <img width="512" height="512" alt="output (17)" src="https://github.com/user-attachments/assets/781052a0-cd24-4e8c-ab15-87b3c074ed45" />
 
+<img width="512" height="512" alt="image (3)" src="https://github.com/user-attachments/assets/6739b596-642e-4c89-84e9-979fb343cd0d" />
+
 <img width="512" height="512" alt="image (2)" src="https://github.com/user-attachments/assets/8345a243-b3e0-45a9-a510-3c7f74d6ed66" />
 
 <img width="512" height="512" alt="output (9)" src="https://github.com/user-attachments/assets/dfdb67db-aa7f-42eb-b255-564decca7fb9" />
