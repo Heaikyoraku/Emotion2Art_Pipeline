@@ -22,6 +22,21 @@ Emotion Classifier: Fine-tuned DistilBERT model by me :)
 
 Image Generator: runwayml/stable-diffusion-v1-5 (Hugging Face)
 
+📊 Model Performance & Training Details
+Model: DistilBERT fine-tuned for Emotion Classification
+Base model: distilbert-base-uncased
+
+Training dataset: Emotion classification dataset (custom/preprocessed)
+
+Number of classes: 6 (sadness, joy, love, anger, fear, surprise)
+
+Epochs: 3
+
+Final Accuracy: 94.15% on test set 
+
+Evaluation metric: Accuracy (using sklearn accuracy_score)
+
+
 🛠️ Tech Stack
 Python
 
@@ -51,7 +66,20 @@ output.png → sample generated art.
 📝 Notes
 The emotion classifier was fine-tuned on a dataset with six labels: sadness, joy, love, anger, fear, surprise.
 
-Drawing style can be customized by the user (cartoon, realistic, watercolor...).
+🎨 Drawing Styles
+The current version is locked to pastel colors to ensure a soft, childlike feel in the generated art.
+
+Users can manually change the style prompt inside the code if needed.
+
+# Example:
+style_prompt = "A watercolor drawing in pastel tones"
+Styles are not dynamically applied by the model itself, but rather influence the text prompt passed to Stable Diffusion.
+
+🧠 Future plans:
+
+Let users change drawing styles from the interface.
+
+Explore training or fine-tuning models that better support artistic style control directly.
 
 Future versions may include a custom-trained diffusion model.
 
