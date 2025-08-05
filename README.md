@@ -1,8 +1,8 @@
-#🎨Emotion2Art 
+# 🎨Emotion2Art 
 Let kids’ feelings turn into art using AI.
 This project combines a fine-tuned emotion classification model with a generative image model to visually express children's emotions described through text. It aims to help kids express themselves emotionally in a fun and supportive way.
 
-#💡 How It Works
+# 💡 How It Works
 User Input: The user writes a sentence describing the child's emotional state.
 
 Emotion Detection: A fine-tuned DistilBERT model classifies the emotion from the text.
@@ -17,12 +17,12 @@ Gradio Interface: Users interact through a clean Gradio interface to view and do
 
 
 
-#🧠 Models Used
+# 🧠 Models Used
 Emotion Classifier: Fine-tuned DistilBERT model by me :)
 
 Image Generator: runwayml/stable-diffusion-v1-5 (Hugging Face)
 
-#📊 Model Performance & Training Details
+# 📊 Model Performance & Training Details
 Model: DistilBERT fine-tuned for Emotion Classification
 Base model: distilbert-base-uncased
 
@@ -37,7 +37,7 @@ Final Accuracy: 94.15% on test set
 Evaluation metric: Accuracy (using sklearn accuracy_score)
 
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 Python
 
 Hugging Face Transformers
@@ -48,13 +48,13 @@ PyTorch
 
 Gradio
 
-#📁 Project Structure
+# 📁 Project Structure
 emotion-model-byHasoosy/ → contains the fine-tuned emotion classifier.
 
 Emotion2Art_Pipeline_by_Hasoosy.ipynb → full integration pipeline with user interface.
 
 output.png → sample generated art.
-#examples:
+# examples:
 <img width="512" height="512" alt="output (2)" src="https://github.com/user-attachments/assets/98c373a6-475a-4e42-82d6-7c6dcd52e121" />
 
 <img width="512" height="512" alt="output (17)" src="https://github.com/user-attachments/assets/781052a0-cd24-4e8c-ab15-87b3c074ed45" />
@@ -63,10 +63,10 @@ output.png → sample generated art.
 <img width="1130" height="926" alt="image" src="https://github.com/user-attachments/assets/07c70d14-ec7f-47f5-aa04-bee995530e7a" />
 
 
-#📝 Notes
+# 📝 Notes
 The emotion classifier was fine-tuned on a dataset with six labels: sadness, joy, love, anger, fear, surprise.
 
-#🎨 Drawing Styles
+# 🎨 Drawing Styles
 The current version is locked to pastel colors to ensure a soft, childlike feel in the generated art.
 
 Users can manually change the style prompt inside the code if needed.
@@ -75,7 +75,7 @@ Users can manually change the style prompt inside the code if needed.
 style_prompt = "A watercolor drawing in pastel tones"
 Styles are not dynamically applied by the model itself, but rather influence the text prompt passed to Stable Diffusion.
 
-#🧠 Future plans:
+# 🧠 Future plans:
 
 Let users change drawing styles from the interface.
 
