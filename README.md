@@ -1,5 +1,9 @@
 # Emotion2Art
 
+<p><img src="https://skillicons.dev/icons?i=py,pytorch&theme=dark" alt="Python · PyTorch · Hugging Face · DistilBERT · Stable Diffusion · Gradio" height="34" /></p>
+<sub>Python · PyTorch · Hugging Face · DistilBERT · Stable Diffusion · Gradio</sub>
+
+
 **From written emotion to generated artwork**
 
 Emotion2Art is an end-to-end text-to-art AI pipeline. It classifies the emotion in a short English message and builds a matching prompt for a generative image model, with a Gradio interface for exploration.
